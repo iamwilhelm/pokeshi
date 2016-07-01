@@ -6,7 +6,7 @@ module Web::Views::Home
       html.style do
         raw %(
             .jumbotron {
-              background-image: url('#{asset_path cover_image}');
+              background-image: url('#{asset_path sushi[:cover_image_url]}');
               background-size: cover;
               background-position: center center;
               height: 32em;
