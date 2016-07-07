@@ -4,7 +4,7 @@ gem 'bundler'
 gem 'rake'
 gem 'hanami',       '0.7.3'
 gem 'hanami-model', '~> 0.5'
-
+gem 'hashwithindifferentaccess'
 
 gem 'pg'
 
