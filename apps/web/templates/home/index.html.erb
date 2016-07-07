@@ -11,23 +11,23 @@
       <div class="media">
         <div class="media-body">
           <h1 class="media-heading">
-            <%= sushi[:name][:japanese] %>
-            <small><%= sushi[:name][:english] %></small>
+            <%= sushi['name']['japanese'] %>
+            <small><%= sushi['name']['english'] %></small>
           </h1>
 
           <ul class="list-inline">
             <li>
-              <%= sushi[:category] %>
+              <%= sushi['category'] %>
             </li>
             <li>
-              <%= sushi[:flavor][:season] %>
+              <%= sushi['flavor']['season'] %>
             </li>
           </ul>
         </div>
 
         <div class="media-right">
           <span class="kanji text-muted">
-            <%= sushi[:name][:kanji] %>
+            <%= sushi['name']['kanji'] %>
           </span>
         </div>
       </div>
@@ -35,23 +35,23 @@
       <div class="panel">
         <h4>The Intro</h4>
         <p>
-          <%= sushi[:introduction] %>
+          <%= sushi['introduction'] %>
         </p>
       </div>
 
       <table class="table">
         <tr>
           <th>Conservation Status</th>
-          <td><%= sushi[:conservation_status] %></td>
+          <td><%= sushi['conservation_status'] %></td>
         </tr>
         <tr>
           <th>Season</th>
-          <td><%= sushi[:flavor][:season] %></td>
+          <td><%= sushi['flavor']['season'] %></td>
         </tr>
         <tr>
           <th>Flavor</th>
           <td>
-            <% sushi[:flavor][:tags].each do |tag| %>
+            <% sushi['flavor']['tags'].each do |tag| %>
               <span class="label label-default"><%= tag %></span>
             <% end %>
           </td>
@@ -59,7 +59,7 @@
         <tr>
           <th>Pairings</th>
           <td>
-            <% sushi[:flavor][:pairings].each do |tag| %>
+            <% sushi['flavor']['pairings'].each do |tag| %>
               <span class="label label-default"><%= tag %></span>
             <% end %>
           </td>
@@ -69,13 +69,13 @@
       <div class="panel">
         <h4>The Flavor</h4>
         <p>
-          <%= sushi[:flavor][:description] %>
+          <%= sushi['flavor']['description'] %>
         </p>
         <div class="row">
-          <% sushi[:flavor][:images].each do |img| %>
+          <% sushi['flavor']['images'].each do |img| %>
             <div class="col-xs-6 col-md-4">
               <a href="#" class="thumbnail">
-                <%= image img[:url], alt: img[:caption] %>
+                <%= image img['url'], alt: img['caption'] %>
               </a>
             </div>
           <% end %>
@@ -89,7 +89,7 @@
           <% trophies.each do |trophy| %>
             <div class="col-xs-6 col-md-2">
               <a href="#" class="thumbnail">
-                <%= image trophy[:url], alt: trophy[:caption] %>
+                <%= image trophy['url'], alt: trophy['caption'] %>
               </a>
             </div>
           <% end %>
@@ -101,10 +101,10 @@
       <div class="panel">
         <h4>Preparation and Handling</h4>
         <p>
-          <%= sushi[:preparation][:description] %>
+          <%= sushi['preparation']['description'] %>
         </p>
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="<%= sushi[:preparation][:videos][0][:url] %>" frameborder="0" allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="<%= sushi['preparation']['videos'][0]['url'] %>" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
 
@@ -112,15 +112,15 @@
       <div class="panel">
         <h3>The Fish</h3>
         <p>
-          <%= sushi[:fish][:description] %>
+          <%= sushi['fish']['description'] %>
         </p>
-        <%= image sushi[:fish][:image_url], class: "img-responsive img-rounded" %>
+        <%= image sushi['fish']['image_url'], class: "img-responsive img-rounded" %>
       </div>
 
       <div class="panel">
         <h4>Alternate Names</h4>
         <dl class="dl-horizontal">
-          <% sushi[:name][:alternates].each do |alt_name| %>
+          <% sushi['name']['alternates'].each do |alt_name| %>
             <dt><%= alt_name[0] %></dt>
             <dd><%= alt_name[1] %></dd>
           <% end %>
@@ -130,14 +130,14 @@
       <div class="panel">
         <h4>Often confused with</h4>
         <ul class="list-inline">
-          <% sushi[:fish][:confused_with].each do |other| %>
+          <% sushi['fish']['confused_with'].each do |other| %>
             <li>
               <a href="<%= asset_path '#' %>">
                 <h4>
-                  <%= other[:name][:japanese] %>
-                  (<%= other[:name][:kanji] %>)
+                  <%= other['name']['japanese'] %>
+                  (<%= other['name']['kanji'] %>)
                   <br/>
-                  <small><%= other[:name][:english] %></small>
+                  <small><%= other['name']['english'] %></small>
                 </h4>
               </a>
             </li>
@@ -158,7 +158,7 @@
             Scientific Classification
           </th>
           <td>
-            <%= sushi[:name][:scientific] %>
+            <%= sushi['name']['scientific'] %>
           </td>
         </tr>
         <tr>
@@ -167,13 +167,13 @@
             <ul class="list-unstyled">
               <li>
                 <small class="text-muted">(min)</small>
-                <%= sushi[:fish][:body_length][:min] %>
-                <%= sushi[:fish][:body_length][:units] if sushi[:fish][:body_length][:min] %>
+                <%= sushi['fish']['body_length']['min'] %>
+                <%= sushi['fish']['body_length']['units'] if sushi['fish']['body_length']['min'] %>
               </li>
               <li>
                 <small class="text-muted">(max)</small>
-                <%= sushi[:fish][:body_length][:max] %>
-                <%= sushi[:fish][:body_length][:units] if sushi[:fish][:body_length][:max] %>
+                <%= sushi['fish']['body_length']['max'] %>
+                <%= sushi['fish']['body_length']['units'] if sushi['fish']['body_length']['max'] %>
               </li>
             </ul>
           </td>
@@ -184,13 +184,13 @@
             <ul class="list-unstyled">
               <li>
                 <small class="text-muted">(min)</small>
-                <%= sushi[:fish][:body_mass][:min] %>
-                <%= sushi[:fish][:body_mass][:units] if sushi[:fish][:body_mass][:min] %>
+                <%= sushi['fish']['body_mass']['min'] %>
+                <%= sushi['fish']['body_mass']['units'] if sushi['fish']['body_mass']['min'] %>
               </li>
               <li>
                 <small class="text-muted">(max)</small>
-                <%= sushi[:fish][:body_mass][:max] %>
-                <%= sushi[:fish][:body_mass][:units] if sushi[:fish][:body_mass][:max] %>
+                <%= sushi['fish']['body_mass']['max'] %>
+                <%= sushi['fish']['body_mass']['units'] if sushi['fish']['body_mass']['max'] %>
               </li>
             </ul>
           </td>
@@ -198,7 +198,7 @@
 
         <tr>
           <th>Location</th>
-          <td><%= sushi[:location][:description] %></td>
+          <td><%= sushi['location']['description'] %></td>
         </tr>
         <tr>
           <th>Latitude</th>
@@ -206,13 +206,13 @@
             <ul class="list-unstyled">
               <li>
                 <small class="text-muted">(min)</small>
-                <%= sushi[:location][:latitude][:min] %>
-                <%= sushi[:location][:latitude][:units] if sushi[:location][:latitude][:min] %>
+                <%= sushi['location']['latitude']['min'] %>
+                <%= sushi['location']['latitude']['units'] if sushi['location']['latitude']['min'] %>
               </li>
               <li>
                 <small class="text-muted">(max)</small>
-                <%= sushi[:location][:latitude][:max] %>
-                <%= sushi[:location][:latitude][:units] if sushi[:location][:latitude][:max] %>
+                <%= sushi['location']['latitude']['max'] %>
+                <%= sushi['location']['latitude']['units'] if sushi['location']['latitude']['max'] %>
               </li>
             </ul>
           </td>
@@ -223,13 +223,13 @@
             <ul class="list-unstyled">
               <li>
                 <small class="text-muted">(min)</small>
-                <%= sushi[:location][:longitude][:min] %>
-                <%= sushi[:location][:longitude][:units] if sushi[:location][:longitude][:min] %>
+                <%= sushi['location']['longitude']['min'] %>
+                <%= sushi['location']['longitude']['units'] if sushi['location']['longitude']['min'] %>
               </li>
               <li>
                 <small class="text-muted">(max)</small>
-                <%= sushi[:location][:longitude][:max] %>
-                <%= sushi[:location][:longitude][:units] if sushi[:location][:longitude][:max] %>
+                <%= sushi['location']['longitude']['max'] %>
+                <%= sushi['location']['longitude']['units'] if sushi['location']['longitude']['max'] %>
               </li>
             </ul>
           </td>
