@@ -1,0 +1,163 @@
+{
+  "cover_image_url": "aji.png",
+  "name": {
+    "japanese": "Aji",
+    "english": "Japanese Horse Mackerel",
+    "kanji": "鯵",
+    "scientific": "Trachurus japonicus",
+    "alternates": [
+      [
+        "saurel",
+        "Word of french origin for horse mackerel"
+      ],
+      [
+        "jack fish",
+        "Another name"
+      ],
+      [
+        "scad",
+        "because they have a tendency to gather in large schools"
+      ]
+    ]
+  },
+  "category": "Hikari",
+  "acquisition_methods": [
+    "wild",
+    "famed"
+  ],
+  "conservation_status": "extant",
+  "introduction": "Spanish mackerel is an inexpensive fish like other shiny fishes, however it is one of the tastiest, and healthiest fish. The word aji is phonetically identical to the word “taste” in Japanese, and is believed to bare its name for a good taste, and was a popular fish for the lower class for its affordable price. It is a small fish that can only create 2~6 pieces of sushi. The Spanish mackerel family is distinct for having a unique zipper like scale (zeigo) that runs along its long side.",
+  "location": {
+    "description": "Coast of Japan, apart from Okinawa Island, usually on sandy bottoms of 50–275 m (164–902 ft) deep.",
+    "longitude": {
+      "min": "",
+      "max": "",
+      "units": "deg"
+    },
+    "latitude": {
+      "min": 22.2,
+      "max": 36.15,
+      "units": "deg"
+    },
+    "water_depth": {
+      "min": 150,
+      "max": 300,
+      "units": "m"
+    },
+    "habitats": [
+      "coast",
+      "sand"
+    ]
+  },
+  "flavor": {
+    "season": "Late Summer, Early Fall",
+    "months": [
+      8, 9, 10, 11
+    ],
+    "description": "The flavor of Aji is oily and salty, similar to mackerel; however, the texture is much more firm, akin to tuna. It is just right served with a dash of ponzu sauce and a dollop of chili infused daikon root.",
+    "tags": [
+      "oily",
+      "salty"
+    ],
+    "pairings": [
+      "grated ginger",
+      "green onion",
+      "chives"
+    ],
+    "images": [
+      {
+        "source": "iamwil",
+        "caption": "aji with grated ginger",
+        "url": "img_6198.jpg"
+      },
+      {
+        "source": "speedM",
+        "caption": "Hamachi toro",
+        "url": "img_1234.jpg"
+      }
+    ]
+  },
+  "preparation": {
+    "description": "Hamachi is best eaten when the fish is about 1 or 2 years old. Any older, it isn't as fatty anymore. To prepare, slice into sushi pieces.",
+    "videos": [
+      {
+        "source": "Cooking with Dog",
+        "url": "https://www.youtube.com/embed/Yf3hrp3dmIo"
+      }
+    ]
+  },
+  "fish": {
+    "image_url": "trachurus_japonicus.jpg",
+    "description": "a species named after mackerel in the family Carangidae.",
+    "body_length": {
+      "min": null,
+      "max": 150.0,
+      "units": "cm"
+    },
+    "body_mass": {
+      "min": null,
+      "max": 40.0,
+      "units": "kg"
+    },
+    "confused_with": [
+      {
+        "name": {
+          "japanese": "Saba",
+          "english": "",
+          "kanji": ""
+        },
+        "url": "#"
+      },
+      {
+        "name": {
+          "japanese": "Sawara",
+          "english": "",
+          "kanji": ""
+        },
+        "url": "#"
+      },
+      {
+        "name": {
+          "japanese": "",
+          "english": "Atlantic Horse Mackerel",
+          "kanji": ""
+        },
+        "url": "#"
+      },
+      {
+        "name": {
+          "japanese": "",
+          "english": "Mackerel",
+          "kanji": ""
+        },
+        "url": "#"
+      }
+    ]
+  },
+  "references": [
+    [
+      "EOL",
+      "http://eol.org/pages/210304/overview"
+    ],
+    [
+      "Japanese Food Dictionary",
+      "http://japanesefooddictionary.blogspot.com/2011/02/aji-japanese-horse-mackerel.html"
+    ],
+    [
+      "ieatishootipost",
+      "http://ieatishootipost.sg/sushi-files-shiromi-dane-hamachi-kanpachi-and-shima-aji/"
+    ],
+    [
+      "The edible ocean",
+      "http://theedibleocean.blogspot.com/2012/04/yellow-tales.html"
+    ],
+    [
+      "Wikipedia",
+      "https://en.wikipedia.org/wiki/List_of_sushi_and_sashimi_ingredients"
+    ],
+    [
+      "Fishbase",
+      "http://www.fishbase.org/summary/Seriola-dumerili.html"
+    ]
+  ]
+}

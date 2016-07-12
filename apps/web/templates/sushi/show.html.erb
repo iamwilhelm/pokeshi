@@ -236,7 +236,13 @@
         </tr>
         <tr>
           <th>Harvesting Method</th>
-          <td></td>
+          <td>
+            <ul class="list-unstyled">
+              <% sushi['acquisition_methods'].each do |method| %>
+                <li><%= method %></li>
+              <% end %>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td></td>
