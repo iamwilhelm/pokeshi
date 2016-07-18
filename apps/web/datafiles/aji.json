@@ -7,16 +7,28 @@
     "scientific": "Trachurus japonicus",
     "alternates": [
       [
-        "saurel",
-        "Word of french origin for horse mackerel"
+        "Saurel",
+        "Generic term for horse mackerels"
       ],
       [
-        "jack fish",
+        "Jack fish",
         "Another name"
       ],
       [
-        "scad",
+        "Scad",
         "because they have a tendency to gather in large schools"
+      ],
+      [
+        "Horse mackerel",
+        "Perhaps called due to being a fast swimmer and can "
+      ],
+      [
+        "Japanese jack mackerel",
+        ""
+      ],
+      [
+        "Japanese scud",
+        ""
       ]
     ]
   },
@@ -26,7 +38,7 @@
     "famed"
   ],
   "conservation_status": "extant",
-  "introduction": "Spanish mackerel is an inexpensive fish like other shiny fishes, however it is one of the tastiest, and healthiest fish. The word aji is phonetically identical to the word “taste” in Japanese, and is believed to bare its name for a good taste, and was a popular fish for the lower class for its affordable price. It is a small fish that can only create 2~6 pieces of sushi. The Spanish mackerel family is distinct for having a unique zipper like scale (zeigo) that runs along its long side.",
+  "introduction": "Not a true mackerel, this fish goes by several different names in English. There are several different kinds, with trachurus japonicus refering to ma-aji, the main type. Most fish sold in Japan as 'aji' is ma-aji. Therefore, unless referred to by a specific name such as 'shima-aji' (see below), we will assume that 'aji' means 'ma-aji'.",
   "location": {
     "description": "Coast of Japan, apart from Okinawa Island, usually on sandy bottoms of 50–275 m (164–902 ft) deep.",
     "longitude": {
@@ -62,18 +74,13 @@
     "pairings": [
       "grated ginger",
       "green onion",
-      "chives"
+      "citrus Ponzu"
     ],
     "images": [
       {
-        "source": "iamwil",
-        "caption": "aji with grated ginger",
-        "url": "img_6198.jpg"
-      },
-      {
-        "source": "speedM",
-        "caption": "Hamachi toro",
-        "url": "img_1234.jpg"
+        "source": "Food in Japan",
+        "caption": "aji sashimi",
+        "url": "aji_sashimi.jpg"
       }
     ]
   },
@@ -81,8 +88,8 @@
     "description": "Hamachi is best eaten when the fish is about 1 or 2 years old. Any older, it isn't as fatty anymore. To prepare, slice into sushi pieces.",
     "videos": [
       {
-        "source": "Cooking with Dog",
-        "url": "https://www.youtube.com/embed/Yf3hrp3dmIo"
+        "source": "chefmediapromote",
+        "url": "https://www.youtube.com/embed/wZ3rKYbkCNM"
       }
     ]
   },
@@ -103,32 +110,24 @@
       {
         "name": {
           "japanese": "Saba",
-          "english": "",
-          "kanji": ""
+          "english": "Mackerel",
+          "kanji": "鯖"
         },
         "url": "#"
       },
       {
         "name": {
           "japanese": "Sawara",
-          "english": "",
-          "kanji": ""
+          "english": "Spanish Mackerel",
+          "kanji": "鰆"
         },
         "url": "#"
       },
       {
         "name": {
-          "japanese": "",
+          "japanese": "Nishima-Aji",
           "english": "Atlantic Horse Mackerel",
-          "kanji": ""
-        },
-        "url": "#"
-      },
-      {
-        "name": {
-          "japanese": "",
-          "english": "Mackerel",
-          "kanji": ""
+          "kanji": "ニシマアジ"
         },
         "url": "#"
       }
@@ -148,16 +147,16 @@
       "http://ieatishootipost.sg/sushi-files-shiromi-dane-hamachi-kanpachi-and-shima-aji/"
     ],
     [
-      "The edible ocean",
-      "http://theedibleocean.blogspot.com/2012/04/yellow-tales.html"
+      "Blue Moon",
+      "http://blue_moon.typepad.com/thejapanesekitchen/2005/01/aji.html"
     ],
     [
-      "Wikipedia",
-      "https://en.wikipedia.org/wiki/List_of_sushi_and_sashimi_ingredients"
+      "Zukan-bouz",
+      "http://www.zukan-bouz.com/syu/%E3%83%8B%E3%82%B7%E3%83%9E%E3%82%A2%E3%82%B8"
     ],
     [
-      "Fishbase",
-      "http://www.fishbase.org/summary/Seriola-dumerili.html"
+      "Food in Japan",
+      "http://food-in-japan.com/2013/02/sashimi-jack-mackerel/"
     ]
   ]
 }
